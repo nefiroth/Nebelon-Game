@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebelon - Privacy Policy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            font-family: 'Orbitron', sans-serif;
+            background-color: #050816; /* Deep space blue */
+            color: #c0c0c0; /* Silver-grey text */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            overflow-y: auto;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(transparent, rgba(0,0,0,0.5)),
+                        repeating-linear-gradient(0deg, transparent, transparent 2px, #0a0a1a 2px, #0a0a1a 4px);
+            opacity: 0.3;
+            z-index: -1;
+            position: fixed;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 40px;
+            border: 1px solid #00ffff;
+            border-radius: 15px;
+            background: rgba(10, 25, 47, 0.8);
+            box-shadow: 0 0 35px rgba(0, 255, 255, 0.3);
+            backdrop-filter: blur(5px);
+            margin: 40px 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        h1, h2 {
+            color: #ffffff;
+            text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+            color: #00aaff;
+            text-shadow: 0 0 8px #00aaff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p, li {
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+            border-left: 1px solid #00aaff;
+        }
+        
+        li {
+            margin-bottom: 1rem;
+        }
+
+        strong {
+            color: #00ffff;
+        }
+
+        em {
+            color: #c0c0c0;
+            font-style: italic;
+            text-align: center;
+            display: block;
+            margin-bottom: 2rem;
+        }
+
+        .footer-link {
+            text-align: center;
+            margin-top: 3rem;
+            border-top: 1px solid #00ffff;
+            padding-top: 1.5rem;
+        }
+
+        .footer-link a {
+            color: #00ffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s, text-shadow 0.3s;
+        }
+
+        .footer-link a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 10px #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy for NEBELON</h1>
+            <em>Effective Date: November 16, 2025</em>
+        </header>
+        <main>
+            <p>This Privacy Policy describes how the game application NEBELON ("the Game") handles the limited data it collects from its users. We are committed to protecting your privacy.</p>
+
+            <h2>1. Data Collection and Use</h2>
+            <p>The Game collects and processes data strictly necessary for gameplay and service functionality. We do not collect names, emails, addresses, or any sensitive personal data.</p>
+
+            <h3>A. Data Collected via Epic Online Services (EOS)</h3>
+            <p>When you log into NEBELON, we automatically collect the following data through the Epic Online Services framework:</p>
+            <ul>
+                <li><strong>Epic Account ID:</strong> Used to uniquely identify you within our Game for matchmaking, persistent data storage, and progression tracking.</li>
+                <li><strong>Online Presence/Status:</strong> Used to display your in-game status (e.g., "In Matchmaking," "In Game") to your friends, enabling multiplayer features.</li>
+                <li><strong>Friends List:</strong> Access (read-only) to your Epic friends list to facilitate invitations to game instances.</li>
+            </ul>
+
+            <h3>B. Gameplay and Server Data</h3>
+            <p>This data is stored on our secure backend (e.g., Firebase/GameSparks) and is essential for the Game's functionality:</p>
+            <ul>
+                <li><strong>In-Game Statistics:</strong> Non-personal metrics, such as monsters defeated, planets conquered, currency balance, and character stats (XP, level).</li>
+                <li><strong>Networking Data:</strong> Your IP address is temporarily processed by the game host (Peer-to-Peer or Dedicated Server) solely for the purpose of establishing a connection during multiplayer sessions. This data is not permanently stored by the Game.</li>
+            </ul>
+
+            <h2>2. Data Sharing and Disclosure</h2>
+            <p>We do not share, sell, or disclose your data to any third parties, except as necessary to provide the services described above (e.g., sharing your Epic Account ID with the EOS Matchmaking service to find a game).</p>
+
+            <h2>3. Data Storage</h2>
+            <p>Data is stored securely on servers provided by Epic Games (for EOS data) and our chosen Backend-as-a-Service (for gameplay statistics and inventory). We retain this data as long as your NEBELON account is active.</p>
+
+            <h2>4. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page.</p>
+        </main>
+        <footer>
+            <div class="footer-link">
+                <a href="./index.html">Back to Homepage</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
